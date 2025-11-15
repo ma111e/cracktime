@@ -1,3 +1,7 @@
+> AIL 4
+
+[*About AI Influence Level*](https://danielmiessler.com/blog/ai-influence-level-ail)
+
 ```
 NAME
        cracktime.py – estimate brute-force keyspace generation time
