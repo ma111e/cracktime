@@ -23,7 +23,7 @@ python3 time.py -l 8 -s 150k -aAdS
 [+] Total combinations: 6.161234e+15
 [+] Total estimated time: 1302.48 yrs
 ```
-
+### MAN
 ```
 NAME
        cracktime.py – estimate brute-force keyspace generation time
