@@ -1,5 +1,4 @@
-# Cracktime
-
+```
 NAME
        cracktime.py – estimate brute-force keyspace generation time
 
@@ -92,4 +91,4 @@ AUTHOR
 
 LICENSE
        MIT
-
+```
