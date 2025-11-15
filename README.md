@@ -2,6 +2,28 @@
 
 [*About AI Influence Level*](https://danielmiessler.com/blog/ai-influence-level-ail)
 
+### Preview
+```
+python3 time.py -l 8 -s 150k -aAdS
+[*] Using composed charset (94 chars): abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()-_=+[{]}\|;:'",<.>/?`~
+[*] Speed: 150000 per second
+
++--------+----------+---------------+--------------+-------------+
+| Length | Keyspace | Equation      | Total Combos | Est. Time   |
++========+==========+===============+==============+=============+
+| 1      | 94       | 94^1 / 150000 | 9.400000e+01 | 0.00 sec    |
+| 2      | 94       | 94^2 / 150000 | 8.836000e+03 | 0.06 sec    |
+| 3      | 94       | 94^3 / 150000 | 8.305840e+05 | 5.54 sec    |
+| 4      | 94       | 94^4 / 150000 | 7.807490e+07 | 8.67 min    |
+| 5      | 94       | 94^5 / 150000 | 7.339040e+09 | 13.59 hr    |
+| 6      | 94       | 94^6 / 150000 | 6.898698e+11 | 53.23 days  |
+| 7      | 94       | 94^7 / 150000 | 6.484776e+13 | 13.71 yrs   |
+| 8      | 94       | 94^8 / 150000 | 6.095689e+15 | 1288.62 yrs |
++--------+----------+---------------+--------------+-------------+
+[+] Total combinations: 6.161234e+15
+[+] Total estimated time: 1302.48 yrs
+```
+
 ```
 NAME
        cracktime.py – estimate brute-force keyspace generation time
